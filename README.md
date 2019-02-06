@@ -45,6 +45,15 @@ npm update -g generator-jhipster-translation
 
 # Usage
 
+
+First, you have to run the generator using the following command :
+
+```bash
+yo jhipster-translation
+```
+
+The generator will then ask you to enter your google translate API key to be able to translate your entities.
+
 # License
 
 MIT © [Contribution Jhipster UGA](https://github.com/contribution-jhipster-uga)
