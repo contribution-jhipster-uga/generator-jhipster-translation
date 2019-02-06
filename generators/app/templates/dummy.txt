@@ -1,0 +1,2 @@
+hello translation!
+It's dummy.txt
