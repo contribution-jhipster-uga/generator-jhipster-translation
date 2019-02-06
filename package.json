@@ -1,6 +1,6 @@
 {
   "name": "generator-jhipster-translation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This module translates all your entities from the native language of your jhipster application to all the different languages available on your application.",
   "keywords": [
     "yeoman-generator",
