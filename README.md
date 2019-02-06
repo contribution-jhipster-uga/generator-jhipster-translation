@@ -1,6 +1,7 @@
 # generator-jhipster-translation
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > JHipster module, this module translates all your entities from the native language of your jhipster application to all the different languages available on your application.
+It works with google translate. You will therefore need a google translate API key.
 
 # Introduction
 
