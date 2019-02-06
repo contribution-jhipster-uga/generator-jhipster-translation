@@ -132,10 +132,7 @@ module.exports = class extends BaseGenerator {
         this.log(`\nAPI key (google translate)=${this.message}`);
         this.log('------\n');
 
-        if (this.clientFramework === 'angular1') {
-            this.template('dummy.txt', 'dummy-angular1.txt');
-        }
-        if (this.clientFramework === 'angularX' || this.clientFramework === 'angular2') {
+        if (this.clientFramework !== 'angular1') {
             var api = this.props.message;
             var googleTranslate = require('google-translate')(api);
 
@@ -205,12 +202,7 @@ module.exports = class extends BaseGenerator {
             }
 
         }
-        if (this.buildTool === 'maven') {
-            this.template('dummy.txt', 'dummy-maven.txt');
-        }
-        if (this.buildTool === 'gradle') {
-            this.template('dummy.txt', 'dummy-gradle.txt');
-        }
+
     }
 
     install() {
