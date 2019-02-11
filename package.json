@@ -5,7 +5,11 @@
   "keywords": [
     "yeoman-generator",
     "jhipster-module",
-    "jhipster-5"
+    "jhipster-5",
+    "google",
+    "translate",
+    "google-translate",
+    "translation"
   ],
   "homepage": "https://github.com/contribution-jhipster-uga/generator-jhipster-translation",
   "author": {
